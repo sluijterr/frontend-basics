@@ -8,9 +8,14 @@ body .menu2 {
   background-color: #ea00ff;
   color: black; }
 
-body .main {
-  height: 80px;
+body .section {
+  height: 500px;
   background-color: burlywood;
+  color: black; }
+
+body .section2 {
+  height: 500px;
+  background-color: bisque;
   color: black; }
 
 body nav {
