@@ -1,35 +1,32 @@
-$primary-color:orange;
+$primary-color:rgb(9, 255, 0);
 $secundary-color:green;
 $tertiary-color:#eeeeee;
-$primary-font-color:yellow;
+$primary-font-color:rgb(0, 255, 213);
 $border-radius: 4px;
+$opacity: 0.6%;
 
 body{
+    
+     
+    
         .menu1{
             height: 80px;
-            background-color: blueviolet;
+            background-color:  blueviolet;
             color: $primary-font-color;
+            opacity: $opacity;
         }
         
         .menu2{
         height: 80px;
-        background-color: rgb(234, 0, 255);
+        background-color:  rgb(234, 0, 255);
         color:black;
+        opacity: $opacity;
         }
         
-        .section{
-            height: 500px;
-            background-color: burlywood;
-            color:black;
-            }
-        .section2{
-            height: 500px;
-            background-color: bisque;
-            color:black;   
-            }
     
         nav{
-        background-color: orange;
+        background-color:  orange;
+        opacity: $opacity;
         padding: 10px;
         border-radius: 4px;
         list-style-type: none;
@@ -38,7 +35,7 @@ body{
             width: 20%;
             display: inline-block;
             text-align: center;
-            transition: 0.5s ease-out all;
+            transition: 0.5s ease-out;
         }
          /* unvisited link */
         a:link {
@@ -62,6 +59,7 @@ body{
 
 
     }
+    
 
     footer {
                 background: blue;
