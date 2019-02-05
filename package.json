@@ -4,7 +4,8 @@
   "description": "fasttrack Hotel",
   "main": "index.js",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "sass": "node-sass styles.scss -wo ./"
   },
   "author": "Remco Sluijter",
   "license": "ISC",

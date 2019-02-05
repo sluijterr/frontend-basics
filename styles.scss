@@ -1,0 +1,57 @@
+body{
+        .menu1{
+            height: 80px;
+            background-color: blueviolet;
+            color: greenyellow;
+        }
+        
+        .menu2{
+        height: 80px;
+        background-color: cyan;
+        color:black;
+        }
+        
+        nav{
+        background-color: orange;
+        padding: 10px;
+        border-radius: 4px;
+        list-style-type: none;
+        
+        a {
+            width: 20%;
+            display: inline-block;
+            text-align: center;
+            transition: 0.5s ease-out all;
+        }
+         /* unvisited link */
+        a:link {
+            color: black;
+        }
+        
+        /* visited link */
+        a:visited {
+            color: black;
+        }
+        
+        /* mouse over link */
+        a:hover {
+            color: red;
+        }
+        
+        /* selected link */
+        a:active {
+            color: yellow;
+        }     
+
+
+    }
+
+    footer {
+                background: blue;
+                color: white;
+                padding: 5px;
+                border-radius: 2px;
+     }
+     
+    
+}

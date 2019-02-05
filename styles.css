@@ -1,0 +1,38 @@
+body .menu1 {
+  height: 80px;
+  background-color: blueviolet;
+  color: greenyellow; }
+
+body .menu2 {
+  height: 80px;
+  background-color: cyan;
+  color: black; }
+
+body nav {
+  background-color: orange;
+  padding: 10px;
+  border-radius: 4px;
+  list-style-type: none;
+  /* unvisited link */
+  /* visited link */
+  /* mouse over link */
+  /* selected link */ }
+  body nav a {
+    width: 20%;
+    display: inline-block;
+    text-align: center;
+    transition: 0.5s ease-out all; }
+  body nav a:link {
+    color: black; }
+  body nav a:visited {
+    color: black; }
+  body nav a:hover {
+    color: red; }
+  body nav a:active {
+    color: yellow; }
+
+body footer {
+  background: blue;
+  color: white;
+  padding: 5px;
+  border-radius: 2px; }
