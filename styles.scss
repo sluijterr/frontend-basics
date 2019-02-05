@@ -1,16 +1,28 @@
+$primary-color:orange;
+$secundary-color:green;
+$tertiary-color:#eeeeee;
+$primary-font-color:yellow;
+$border-radius: 4px;
+
 body{
         .menu1{
             height: 80px;
             background-color: blueviolet;
-            color: greenyellow;
+            color: $primary-font-color;
         }
         
         .menu2{
         height: 80px;
-        background-color: cyan;
+        background-color: rgb(234, 0, 255);
         color:black;
         }
         
+        .main{
+            height: 80px;
+            background-color: burlywood;
+            color:black;
+            }
+
         nav{
         background-color: orange;
         padding: 10px;

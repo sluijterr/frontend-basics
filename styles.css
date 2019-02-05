@@ -1,11 +1,16 @@
 body .menu1 {
   height: 80px;
   background-color: blueviolet;
-  color: greenyellow; }
+  color: yellow; }
 
 body .menu2 {
   height: 80px;
-  background-color: cyan;
+  background-color: #ea00ff;
+  color: black; }
+
+body .main {
+  height: 80px;
+  background-color: burlywood;
   color: black; }
 
 body nav {
