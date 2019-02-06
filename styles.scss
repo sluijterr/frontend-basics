@@ -11,21 +11,21 @@ body{
     
         .menu1{
             height: 80px;
-            background-color:  blueviolet;
+            background-color:  blueviolet; opacity:0,6%;
             color: $primary-font-color;
-            opacity: $opacity;
+            
         }
         
         .menu2{
         height: 80px;
-        background-color:  rgb(234, 0, 255);
+        background-color:  rgb(234, 0, 255); opacity: 0,6%;
         color:black;
-        opacity: $opacity;
+        
         }
         
     
         nav{
-        background-color:  orange;
+        background-color:  orange; opacity: 0,6%;
         opacity: $opacity;
         padding: 10px;
         border-radius: 4px;
@@ -39,30 +39,31 @@ body{
         }
          /* unvisited link */
         a:link {
-            color: black;
+            color: black; opacity: 0,6%;
         }
         
         /* visited link */
         a:visited {
-            color: black;
+            color: black; opacity: 0,6%;
         }
         
         /* mouse over link */
         a:hover {
-            color: red;
+            color: red; opacity: 0,6%;
         }
         
         /* selected link */
         a:active {
-            color: yellow;
+            color: yellow; opacity: 0,6%;
         }     
 
 
     }
     
+    background-image: url("logo-512.png");
 
     footer {
-                background: blue;
+                background: blue; opacity: 0,6%;
                 color: white;
                 padding: 5px;
                 border-radius: 2px;
