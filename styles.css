@@ -1,32 +1,36 @@
 body {
   background-image: url("logo-512.png"); }
+  body p::first-line {
+    color: black;
+    font-variant: small-caps; }
   body .menu1 {
     height: 80px;
-    background-color: magenta;
+    background-color: #00c3ff;
     opacity: 0.6;
     color: #00ffd5; }
   body .menu2 {
-    height: 80px;
-    background-color: #ea00ff;
-    opacity: 0,6%;
-    color: black; }
+    height: 100px;
+    background-color: #440344;
+    opacity: 0.6%;
+    color: white; }
   body nav {
     background-color: orange;
-    opacity: 0,6%;
-    padding: 10px;
+    opacity: 0.6%;
+    padding: 25px;
     border-radius: 4px;
     list-style-type: none;
     /* unvisited link */
     /* visited link */
     /* mouse over link */
-    /* selected link */ }
+    /* selected link */
+    /* focus link */ }
     body nav a {
       width: 20%;
       display: inline-block;
       text-align: center;
       transition: 0.5s ease-out; }
     body nav a:link {
-      color: black;
+      color: white;
       opacity: 0,6%; }
     body nav a:visited {
       color: black;
@@ -37,6 +41,16 @@ body {
     body nav a:active {
       color: yellow;
       opacity: 0,6%; }
+    body nav a:focus {
+      color: darkslategrey;
+      opacity: 0,6%; }
+  body .dynamic-color {
+    background: transparent;
+    transition: 0.3s all ease-out;
+    transform: scale(1); }
+    body .dynamic-color:hover {
+      background: green;
+      transform: scale(2); }
   body footer {
     background: blue;
     opacity: 0,6%;
