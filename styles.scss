@@ -3,7 +3,6 @@ $secundary-color:green;
 $tertiary-color:#eeeeee;
 $primary-font-color:rgb(0, 255, 213);
 $border-radius: 4px;
-$opacity: 0.6%;
 
 body{
     
@@ -11,7 +10,7 @@ body{
     
         .menu1{
             height: 80px;
-            background-color:  blueviolet; opacity:0,6%;
+            background-color:rgb(255,0,255);opacity:0.6;
             color: $primary-font-color;
             
         }
@@ -26,7 +25,6 @@ body{
     
         nav{
         background-color:  orange; opacity: 0,6%;
-        opacity: $opacity;
         padding: 10px;
         border-radius: 4px;
         list-style-type: none;
