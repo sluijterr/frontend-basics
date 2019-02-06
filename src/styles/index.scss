@@ -1,3 +1,6 @@
+@import "./node_modules/bootstrap/scss/bootstrap";
+
+
 $primary-color:rgb(9, 255, 0);
 $secundary-color:green;
 $tertiary-color:#eeeeee;
@@ -9,7 +12,6 @@ body{
     .green-block{
         background: green;
         border-radius: 4px;
-        width: calc:(50%-20px);
         float: left;
         margin-right: 10px;
     }    
